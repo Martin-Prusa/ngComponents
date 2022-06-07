@@ -7,6 +7,7 @@ import { ExampleComponent } from './components/example/example.component';
 import { CollapsibleComponent } from './components/collapsible/collapsible.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     ExampleComponent,
     CollapsibleComponent,
     DropdownComponent,
-    SidebarComponent
+    SidebarComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
