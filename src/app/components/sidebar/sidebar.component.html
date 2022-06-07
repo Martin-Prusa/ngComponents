@@ -1,0 +1,6 @@
+<div class="m-4">
+  <div *ngFor="let i of map | keyvalue" class="d-flex">
+    <div class="star-title">{{i.key}}</div>
+    <div class="stars my-auto ms-3 border" [style.background]="'linear-gradient(90deg, yellow '+i.value+'%, white '+i.value+'%)'"></div>
+  </div>
+</div>

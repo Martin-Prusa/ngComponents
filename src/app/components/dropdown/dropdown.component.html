@@ -1,0 +1,6 @@
+<div>
+  <button (click)="toggle()" class="btn btn-primary"><ng-content></ng-content></button>
+  <ul class="list-unstyled position-absolute" *ngIf="isOpen">
+    <li *ngFor="let i of items" class="p-1 bg-light p-1 border" style="width: 100px">{{i}}</li>
+  </ul>
+</div>
